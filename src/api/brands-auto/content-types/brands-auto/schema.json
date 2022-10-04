@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brands_autos",
+  "info": {
+    "singularName": "brands-auto",
+    "pluralName": "brands-autos",
+    "displayName": "Бренды",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "IMG": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "URL": {
+      "type": "uid"
+    }
+  }
+}

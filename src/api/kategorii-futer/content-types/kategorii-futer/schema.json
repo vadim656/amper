@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kategorii_futers",
+  "info": {
+    "singularName": "kategorii-futer",
+    "pluralName": "kategorii-futers",
+    "displayName": "Категории-футер"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "uid",
+      "targetField": "Name"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tags_products",
+  "info": {
+    "singularName": "tags-product",
+    "pluralName": "tags-products",
+    "displayName": "TagsProduct"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "UID": {
+      "type": "uid",
+      "targetField": "Name"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pomoshh_futers",
+  "info": {
+    "singularName": "pomoshh-futer",
+    "pluralName": "pomoshh-futers",
+    "displayName": "Помощь-футер"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "uid",
+      "targetField": "Name"
+    }
+  }
+}

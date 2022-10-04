@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stores",
+  "info": {
+    "singularName": "store",
+    "pluralName": "stores",
+    "displayName": "Магазины"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "UID": {
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "goroda": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::sity.sity",
+      "inversedBy": "magazinies"
+    }
+  }
+}

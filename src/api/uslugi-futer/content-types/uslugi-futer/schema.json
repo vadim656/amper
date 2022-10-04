@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "uslugi_futers",
+  "info": {
+    "singularName": "uslugi-futer",
+    "pluralName": "uslugi-futers",
+    "displayName": "Услуги-футер"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "uid",
+      "targetField": "Name"
+    }
+  }
+}

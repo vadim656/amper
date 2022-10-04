@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sities",
+  "info": {
+    "singularName": "sity",
+    "pluralName": "sities",
+    "displayName": "Города",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "UID": {
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "magazinies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::store.store",
+      "mappedBy": "goroda"
+    },
+    "tovaries": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "mappedBy": "gorodas"
+    }
+  }
+}
