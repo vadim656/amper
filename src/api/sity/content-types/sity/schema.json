@@ -24,12 +24,6 @@
       "relation": "oneToMany",
       "target": "api::store.store",
       "mappedBy": "goroda"
-    },
-    "tovaries": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::product.product",
-      "mappedBy": "gorodas"
     }
   }
 }

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_t_est_t_ests",
+  "info": {
+    "displayName": "Stocks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "magaziny": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::store.store"
+    }
+  }
+}

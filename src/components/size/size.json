@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_size_sizes",
+  "info": {
+    "displayName": "Size",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "length": {
+      "type": "float"
+    },
+    "width": {
+      "type": "float"
+    },
+    "height": {
+      "type": "float"
+    },
+    "PriceDelivery": {
+      "type": "decimal"
+    }
+  }
+}

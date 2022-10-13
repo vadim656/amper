@@ -4,7 +4,8 @@
   "info": {
     "singularName": "store",
     "pluralName": "stores",
-    "displayName": "Магазины"
+    "displayName": "Магазины",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,6 +24,9 @@
       "relation": "manyToOne",
       "target": "api::sity.sity",
       "inversedBy": "magazinies"
+    },
+    "Stock": {
+      "type": "decimal"
     }
   }
 }

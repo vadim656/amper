@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_stock_stocks",
+  "info": {
+    "displayName": "Stock",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Stock": {
+      "type": "float"
+    }
+  }
+}

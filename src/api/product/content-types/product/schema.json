@@ -36,23 +36,30 @@
         "audios"
       ]
     },
-    "Stock": {
-      "type": "integer"
-    },
     "kategorii_tovarovs": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "tovaries"
     },
-    "gorodas": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::sity.sity",
-      "inversedBy": "tovaries"
-    },
     "Complektaciya": {
       "type": "richtext"
+    },
+    "SizeDelivery": {
+      "type": "component",
+      "repeatable": false,
+      "component": "size.size"
+    },
+    "Stocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "stocks.t-est"
+    },
+    "order": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::order.order",
+      "inversedBy": "tovaries"
     }
   }
 }
