@@ -3,6 +3,7 @@ module.exports = ({ env }) => ({
       enabled: false,
     },
     "rest-cache": {
+      enabled: false, 
         config: {
           provider: {
             name: "memory",
