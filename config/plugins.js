@@ -1,6 +1,6 @@
 module.exports = ({ env }) => ({
     'import-export-entries': {
-      enabled: true,
+      enabled: false,
     },
     "rest-cache": {
         config: {
