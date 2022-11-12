@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -45,21 +45,92 @@
     "Complektaciya": {
       "type": "richtext"
     },
-    "SizeDelivery": {
-      "type": "component",
-      "repeatable": false,
-      "component": "size.size"
-    },
-    "Stocks": {
-      "type": "component",
-      "repeatable": true,
-      "component": "stocks.t-est"
-    },
     "order": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::order.order",
       "inversedBy": "tovaries"
+    },
+    "Stock1": {
+      "type": "decimal",
+      "default": 1
+    },
+    "Stock2": {
+      "type": "decimal",
+      "default": 1
+    },
+    "Stock3": {
+      "type": "decimal",
+      "default": 1
+    },
+    "Stock4": {
+      "type": "decimal",
+      "default": 1
+    },
+    "Stock5": {
+      "type": "decimal",
+      "default": 1
+    },
+    "Stock6": {
+      "type": "decimal",
+      "default": 1
+    },
+    "Stock7": {
+      "type": "decimal",
+      "default": 1
+    },
+    "Stock8": {
+      "type": "decimal",
+      "default": 1
+    },
+    "Stock9": {
+      "type": "decimal",
+      "default": 1
+    },
+    "Stock10": {
+      "type": "decimal",
+      "default": 1
+    },
+    "Stock11": {
+      "type": "decimal",
+      "default": 1
+    },
+    "Stock12": {
+      "type": "decimal",
+      "default": 1
+    },
+    "Artikul": {
+      "type": "string"
+    },
+    "StranaProishog": {
+      "type": "string"
+    },
+    "MarkaBrend": {
+      "type": "string"
+    },
+    "EmkostAkb": {
+      "type": "string"
+    },
+    "Polyarnost": {
+      "type": "string"
+    },
+    "DostavkaLength": {
+      "type": "float"
+    },
+    "DostavkaWidth": {
+      "type": "float"
+    },
+    "DostavkaHeight": {
+      "type": "float"
+    },
+    "Proizvoditel": {
+      "type": "string"
+    },
+    "EdIzmer": {
+      "type": "string"
+    },
+    "DostavkaVes": {
+      "type": "float"
     }
   }
 }

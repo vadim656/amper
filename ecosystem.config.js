@@ -3,7 +3,7 @@ module.exports = {
       {
         name: 'api',
         script: 'yarn',
-        args: 'start',
+        args: 'develop',
       },
     ],
   };
