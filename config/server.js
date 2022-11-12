@@ -4,5 +4,4 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array('APP_KEYS'),
   },
-  url: 'http://api.1101785-ce16415.tmweb.ru',
 });
