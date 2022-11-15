@@ -45,12 +45,6 @@
     "Complektaciya": {
       "type": "richtext"
     },
-    "order": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::order.order",
-      "inversedBy": "tovaries"
-    },
     "Stock1": {
       "type": "decimal",
       "default": 1
@@ -131,6 +125,10 @@
     },
     "DostavkaVes": {
       "type": "float"
+    },
+    "PriceSale": {
+      "type": "decimal",
+      "default": 0
     }
   }
 }
