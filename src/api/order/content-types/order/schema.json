@@ -21,9 +21,6 @@
     "UID": {
       "type": "uid"
     },
-    "ID_Store": {
-      "type": "string"
-    },
     "UserName": {
       "type": "string"
     },
@@ -43,6 +40,21 @@
       "components": [
         "order-product.order-product"
       ]
+    },
+    "ID_Store": {
+      "type": "integer"
+    },
+    "Comment": {
+      "type": "text"
+    },
+    "Dostavka": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Phone": {
+      "type": "string"
     }
   }
 }
