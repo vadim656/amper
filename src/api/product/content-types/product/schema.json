@@ -102,9 +102,6 @@
     "MarkaBrend": {
       "type": "string"
     },
-    "EmkostAkb": {
-      "type": "string"
-    },
     "Polyarnost": {
       "type": "string"
     },
@@ -129,6 +126,9 @@
     "PriceSale": {
       "type": "decimal",
       "default": 0
+    },
+    "EmkostAkb": {
+      "type": "integer"
     }
   }
 }

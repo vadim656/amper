@@ -6,20 +6,19 @@ module.exports = ({ env }) => ({
         {
           uid: 'api::product.product',
           modelName: 'product',
-          transliterate: true,
-        //   queryConstraints: {
-        //     where: {
-        //       $and: [
-        //         {
-        //           publishedAt: { $notNull: true }
-        //         }
-        //       ]
-        //     }
-        //   },
+          queryConstraints: {
+            where: {
+              $and: [
+                {
+                  price: { $not: 0 }
+                }
+              ]
+            }
+          },
           fuzzysortOptions: {
-            characterLimit: 30,
-            threshold: -100,
-            limit: 15,
+            characterLimit: 100,
+            threshold: -1000,
+            limit: 10,
             keys: [
               {
                 name: 'Name',
